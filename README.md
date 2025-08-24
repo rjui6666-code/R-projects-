@@ -91,3 +91,22 @@ Matrices → 2D (same type).
 Data Frames → 2D (different types).
 
 Factors → Categories.
+📊 Comparison Table of R Data Types
+Data Type	Structure	Same Type or Mixed?	Dimensions	Example	Usage
+Vector	1D (line of elements)	Same type only	1 (length)	c(1,2,3,4)	Store numbers, words, or logical values in a single line
+List	Collection	Can mix different types	1 (collection)	list("Romana", 25, c(1,2,3))	Store mixed information together (like a person’s profile)
+Matrix	2D (rows & columns)	Same type only	2 (rows & cols)	matrix(1:9, nrow=3)	Store numeric data in tables (math operations, linear algebra)
+Data Frame	2D (table, like Excel)	Columns can be different types	2 (rows & cols)	data.frame(name=c("Romana","Noor"), age=c(25,28))	Data analysis, datasets
+Factor	1D (categories)	Stores categories as numbers + labels	1 (levels)	factor(c("Male","Female","Male"))	Handle categorical variables (gender, grade, region)
+
+💡 Memory tip:
+
+Vector = same type, 1D
+
+List = mixed types, collection
+
+Matrix = same type, 2D
+
+Data Frame = mixed types, 2D
+
+Factor = categories
