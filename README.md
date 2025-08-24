@@ -113,5 +113,6 @@ Factor = categories
 ✨ My Learning Goal
 This repo is part of my journey to learn Data Science with R.
 I will keep updating with more topics like data cleaning, visualization, and machine learning.
+👩‍💻 Author: Romana Akter 
 ________________________________________
 
